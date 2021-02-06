@@ -16877,6 +16877,10 @@ body {
   display: inline-block;
   margin-bottom: 1.875rem;
 }
+.sidebar .active {
+  background: #000;
+  padding: 0;
+}
 
 .main {
   background: #F5F5F5;

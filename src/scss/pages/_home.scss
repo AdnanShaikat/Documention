@@ -1,0 +1,108 @@
+.sidebar {
+    background: $dark;
+    // height: 100vh;
+    padding: 3.125rem 0;
+    // padding-left: 1.2rem;
+    &__menu {
+        list-style: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    &__item {
+        width: 100%;
+        padding: .625rem 0;
+    }
+    &__link {
+        display: inline-block;
+        color:$white;
+        text-decoration: none;
+        font-size: 1.4rem;
+        width: 100%;
+        padding: .625rem 3.125rem;
+        font-weight: 600;
+    }
+    &__link:hover {
+        background: black;
+    }
+    img {
+        padding-left: 3.125rem;
+        display: inline-block;
+        margin-bottom: 1.875rem;
+        
+    }
+    
+}
+
+.main {
+    background: $body-bg;
+    color: $black;
+    padding: 3.125rem;
+
+    .feature {
+        &-card {
+            background: $white;
+            &__body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 1rem;
+                padding: 2rem 0;
+                p {
+                    font-size: 1.25rem;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                }
+            }
+            &__icon {
+                height: 2.25rem;
+                font-size: 1.8rem;
+                color: $primary;
+            }
+        }
+        
+    }
+
+    .browser {
+        &-card {
+            background: $white;
+            &__body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 1rem;
+                padding: 2rem 0;
+                p {
+                    font-size: 1.25rem;
+                    font-weight: 600;
+                }
+            }
+            &__icon {
+                height: 2.25rem;
+                font-size: 1.8rem;
+                color: $primary;
+            }
+        }
+    }
+
+    .file-structure {
+        &-card {
+            background: $white;
+            &__body {
+                margin: 1rem;
+                padding: 2rem 0;
+                padding-left: 1rem;
+            }
+        }
+    }
+    .changelog-card {
+        background: $white;
+        padding: 1rem 2rem;
+    }
+
+    .attribution-card {
+        background: $white;
+        padding:2rem;
+    }
+}
